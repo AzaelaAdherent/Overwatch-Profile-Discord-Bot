@@ -1,0 +1,128 @@
+[
+  {
+    "name": "help",
+    "description": "get some help"
+  },
+  {
+    "name": "profile",
+    "type": 1,
+    "description": "get a user's overwatch profile",
+    "options": [
+      {
+        "name": "platform",
+        "description": "The platform the users plays on",
+        "type": 3,
+        "required": true,
+        "choices": [
+          {
+            "name": "pc",
+            "value": "pc"
+          },
+          {
+            "name": "xbox",
+            "value": "xbl"
+          },
+          {
+            "name": "playstation",
+            "value": "psn"
+          }
+        ]
+      },
+      {
+        "name": "region",
+        "description": "The region of the user's account",
+        "type": 3,
+        "required": true,
+        "choices": [
+          {
+            "name": "us",
+            "value": "us"
+          },
+          {
+            "name": "eu",
+            "value": "eu"
+          },
+          {
+            "name": "kr",
+            "value": "kr"
+          },
+          {
+            "name": "cn",
+            "value": "cn"
+          },
+          {
+            "name": "global",
+            "value": "global"
+          }
+        ]
+      },
+      {
+        "name": "tag",
+        "description": "The user's Battle.net tag",
+        "type": 3,
+        "required": true
+      }
+    ]
+  },
+  {
+    "name": "stats",
+    "type": 1,
+    "description": "get a user's overwatch stats",
+    "options": [
+      {
+        "name": "platform",
+        "description": "The platform the users plays on",
+        "type": 3,
+        "required": true,
+        "choices": [
+          {
+            "name": "pc",
+            "value": "pc"
+          },
+          {
+            "name": "xbox",
+            "value": "xbl"
+          },
+          {
+            "name": "playstation",
+            "value": "psn"
+          }
+        ]
+      },
+      {
+        "name": "region",
+        "description": "The region of the user's account",
+        "type": 3,
+        "required": true,
+        "choices": [
+          {
+            "name": "us",
+            "value": "us"
+          },
+          {
+            "name": "eu",
+            "value": "eu"
+          },
+          {
+            "name": "kr",
+            "value": "kr"
+          },
+          {
+            "name": "cn",
+            "value": "cn"
+          },
+          {
+            "name": "global",
+            "value": "global"
+          }
+        ]
+      },
+      {
+        "name": "tag",
+        "description": "The user's Battle.net tag",
+        "type": 3,
+        "required": true
+      }
+    ]
+  }
+]
